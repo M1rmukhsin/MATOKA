@@ -5,7 +5,7 @@ body{
 }
 
 header {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./img/DSCF9298.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./img/DSCF9298.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -37,7 +37,7 @@ header {
     font-style: normal;
     font-weight: 500;
     font-size: 64px;
-    line-height: 95px;
+    line-height: 3px;
     letter-spacing: 0.45em;
     color: #FFFFFF;
 }
@@ -138,30 +138,19 @@ nav ul li a{
 
 .carousel{
     display: flex;
-    margin-left: 25%;
-    padding-top: 10px;
-    padding-bottom: 36px;
-    gap: 15px;
-
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    gap: 10px;
 }
+
 
 .carousel a img{
-    width: 195px;
-    height: 200px;
-    border-radius: 35%;
-    transform: rotate(90deg);
+    width: 300px;
+    height: 435px;
+    border-radius: 300px;
 }
 
-.carousel a img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.carousel a:hover img {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.1);
-}
 
 #about {
     display: grid;

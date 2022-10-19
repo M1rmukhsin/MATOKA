@@ -4,6 +4,8 @@ body{
     margin: 0;
 }
 
+
+
 header {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./img/DSCF9298.jpg);
     background-repeat: no-repeat;
@@ -90,6 +92,7 @@ nav ul li a{
     text-decoration: none;
     cursor: pointer;
     position: relative;
+    font-weight: 400px;
 }
 .link-hover-center a:after {
     display: block;
@@ -178,14 +181,14 @@ nav ul li a{
 .info h3 {
     font-size: 48px; 
     color: #000;
-    font-weight: bolder;
+    font-weight: 400;
     padding-left: 145px;
 }
 
 .info p {
     color: #000;
     margin-left: 150px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 174%;
 }
 
@@ -211,3 +214,16 @@ nav ul li a{
     margin-top: 10px;
     object-fit: cover;
 }
+
+#reviews {
+    margin-top: 20px;
+}
+
+#reviews h3 {
+    font-size: 48px; 
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+}
+
+

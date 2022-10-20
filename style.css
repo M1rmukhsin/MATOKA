@@ -12,6 +12,7 @@ header {
     background-size: 100%;
     width: 100%;
     margin-top: 0%;
+    z-index: -1;
 }
 
 .logo{
@@ -259,8 +260,9 @@ footer {
 
 .map {
     background-image: url(./img/mirmuxsin.png);
+    background-repeat: no-repeat;
     width:700px;
-    height: 380px;
+    height: 400px;
 }
 
 .footer {

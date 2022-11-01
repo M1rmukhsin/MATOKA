@@ -288,7 +288,11 @@ footer {
 .number-footer {
     margin-top: 15px;
     text-align: center;
-    
+}
+
+.number-footer a {
+    text-decoration: none;
+    color: #000;
 }
 
 /* menu page styles */

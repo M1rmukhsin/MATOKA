@@ -354,8 +354,9 @@ footer {
 .menu-page {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: minmax(100px, auto);
+    background: linear-gradient(151.62deg, #F1F1F1 0%, rgba(255, 255, 255, 0) 97.04%), #FFFFFF;
 }
 
 .block-left {
@@ -365,7 +366,7 @@ footer {
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 30px;
-    grid-column: 1/4;
+    grid-column: 1/5;
     margin-top: 50px;
     margin-left: 160px;
 }
@@ -439,3 +440,65 @@ footer {
 .types li a:focus:after {
     width: 100%;
 }
+
+.menu-list {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.flashcard {
+    margin-left: 30px;
+}
+
+.flashcard img {
+    width: 300px;
+    height: 254px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.flashcard{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.info-meal {
+    height: 153px;
+}
+
+.info-meal span{
+    font-weight: 500;
+    font-size: 25px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 26px;
+}
+
+.info-meal .special-font {
+    font-family: OFL Sorts Mill Goudy TT;
+}
+
+
+.info-meal input {
+    width: 165px;
+    height: 44px;
+    background-color: #FF9A2D;
+    border-radius: 10px;
+    border-color: transparent;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.inner-info {
+    margin-top: 30px;
+} 

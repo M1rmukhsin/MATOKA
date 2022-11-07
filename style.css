@@ -510,3 +510,26 @@ footer {
 .inner-info {
     margin-top: 30px;
 } 
+
+/*media query*/
+
+@media (max-width: 500px) {
+
+    nav {
+        background:#F1F1F1
+    }
+    
+    .logo {
+        font-size: 24px;
+        margin-left: 35%;
+        color: #323232;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+}

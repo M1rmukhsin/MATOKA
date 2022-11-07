@@ -515,8 +515,9 @@ footer {
 
 @media (max-width: 500px) {
 
-    nav {
-        background:#F1F1F1
+    .top-nav {
+        background:#F1F1F1;
+        align-items: center;
     }
     
     .logo {
@@ -525,11 +526,18 @@ footer {
         color: #323232;
     }
 
-    nav ul {
+    /* Hide the links inside the navigation menu (except for logo/home) */
+
+    #myLinks {
         display: none;
     }
 
     .button {
         display: none;
     }
-}
+
+    .icon {
+        color: #323232;
+        margin-left: auto;
+        margin-right: 10px;
+    }

@@ -7,21 +7,26 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Space+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/yfx0jsc.css">
+    <script src="./JS/main.js"></script>
     <title>Matoka</title>
 </head>
 <body>
     <header class="main">
-        <nav>
+        <nav class="top-nav">
             <a href="#" class="logo">MATOKA</a>
-            <ul>
+            <ul id="myLinks">
                 <li class="link-hover-center"><a href="./menu.html">Menu</a></li>
                 <li class="link-hover-center"><a href="">Cuisine</a></li>
                 <li class="link-hover-center"><a href="">Reviews</a></li>
                 <li class="link-hover-center"><a href="">Contacts</a></li>
             </ul>
             <a class="button" href="tel:01096356644" target="_blank"><span class="phone-fav-icon">&#128222;</span> Get in touch</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </nav>
 
         <div id="banner">

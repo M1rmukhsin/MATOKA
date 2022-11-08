@@ -12,9 +12,9 @@ function toggleHam() {
 
 function toggleNav() {
     const navMenu = document.querySelector(".nav-menu");
-    if (navMenu.style.display === "block") {
-        navMenu.style.display = "none";
+    if (navMenu.style.left === "120%") {
+        navMenu.style.left = "0";
     } else {
-        navMenu.style.display = "block";
+        navMenu.style.left = "120%";
     }
 }

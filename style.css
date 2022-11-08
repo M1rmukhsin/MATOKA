@@ -66,7 +66,6 @@ nav{
 ul{
     display: flex;
     margin-left: auto;
-    align-items: center;
     gap: 36px;
 }
 
@@ -543,6 +542,7 @@ footer {
     /* Hide the links inside the navigation menu (except for logo/home) */
 
     .nav-menu {
+        display: flex;
         position: fixed;
         top: 46px;
         gap: 0;
@@ -550,8 +550,11 @@ footer {
         background-color: #F1F1F1;
         width: 100%;
         transition: 0.3s;
-        display: none;
-        padding-left: 40%;
+        left: 120%;
+    }
+
+    .mobile-container-nav .button {
+
     }
 
     .nav-menu:active {
@@ -567,12 +570,26 @@ footer {
         color: #323232;
     }
 
+    .button-nav {
+        display: block !important;
+        background: #00E34D;
+        border-radius: 30px;
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 15px;
+        margin-left: -10px;
+        margin-right: 245px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    }
 
     .button {
         display: none;
     }
 
-    .icon {
+
+   {
         color: #323232;
         margin-left: auto;
         margin-right: 10px;

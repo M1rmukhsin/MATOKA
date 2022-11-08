@@ -556,6 +556,7 @@ footer {
 
     .nav-menu:active {
         display: block;
+        transition: 0.3s ease;
     }
 
     .nav-item {
@@ -580,24 +581,36 @@ footer {
 
     .hamburger {
         display: block;
-        margin-left: 65px;
+        margin-left: 95px;
     }
 
     #sandwich {
         display: none;
     }
 
+    .bar:nth-child(1){
+        width: 24px;
+    }
 
-    #sandwich:checked+label > .bar:nth-child(2){
-        opacity: 0;
+    .bar:nth-child(2){
+        width: 27.5px;
+        margin-left: 1px
+    }
+
+    .bar:nth-child(3){
+        width: 34px;
+        margin-left: -4px;
     }
 
     #sandwich:checked+label > .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
+        margin-left: -4px;
+    }
+
+    #sandwich:checked+label > .bar:nth-child(2){
+        margin-left: -4px;
     }
 
     #sandwich:checked+label > .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
     }
 
     

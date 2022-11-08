@@ -576,13 +576,13 @@ footer {
         border-radius: 30px;
         text-decoration: none;
         color: #fff;
-        padding: 10px 15px;
+        padding: 10px 20px;
         margin-left: -10px;
-        margin-right: 245px;
+        margin-right: 218px;
         margin-bottom: 10px;
-        font-size: 20px;
+        font-size: 17px;
     }
-    }
+   
 
     .button {
         display: none;

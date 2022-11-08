@@ -511,9 +511,27 @@ footer {
     margin-top: 30px;
 } 
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    background-color: #323232;
+}
+
 /*media query*/
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
+
+    *{
+        width: 100%;
+    }
 
     .top-nav {
         background:#F1F1F1;
@@ -528,9 +546,29 @@ footer {
 
     /* Hide the links inside the navigation menu (except for logo/home) */
 
-    #myLinks {
+    .nav-menu {
+        position: fixed;
+        top: 46px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #F1F1F1;
+        width: 100%;
+        transition: 0.3s;
         display: none;
     }
+
+    .nav-menu:active {
+        display: block;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-item a {
+        color: #323232;
+    }
+
 
     .button {
         display: none;
@@ -540,4 +578,27 @@ footer {
         color: #323232;
         margin-left: auto;
         margin-right: 10px;
+        font-size: 27.5px;
     }
+
+    .hamburger {
+        display: block;
+    }
+
+
+    .hamburger:active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger:active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger:active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    
+
+    
+}    

@@ -1,11 +1,20 @@
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
-function toggleMenu() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
+function toggleHam() {
+    const hamburger = document.querySelector(".hamburger");
+    if (hamburger.classList.toggle === "active") {
+        hamburger.classList.toggle("");
     } else {
-      x.style.display = "block";
+        hamburger.classList.toggle("active");
     }
-  }
+}
+
+function toggleNav() {
+    const navMenu = document.querySelector(".nav-menu");
+    if (navMenu.style.display === "block") {
+        navMenu.style.display = "none";
+    } else {
+        navMenu.style.display = "block";
+    }
+}

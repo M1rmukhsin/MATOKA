@@ -529,10 +529,6 @@ footer {
 
 @media (max-width: 768px) {
 
-    *{
-        width: 100%;
-    }
-
     .top-nav {
         background:#F1F1F1;
         align-items: center;
@@ -555,6 +551,7 @@ footer {
         width: 100%;
         transition: 0.3s;
         display: none;
+        padding-left: 40%;
     }
 
     .nav-menu:active {
@@ -583,18 +580,23 @@ footer {
 
     .hamburger {
         display: block;
+        margin-left: 65px;
+    }
+
+    #sandwich {
+        display: none;
     }
 
 
-    .hamburger:active .bar:nth-child(2){
+    #sandwich:checked+label > .bar:nth-child(2){
         opacity: 0;
     }
 
-    .hamburger:active .bar:nth-child(1){
+    #sandwich:checked+label > .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
     }
 
-    .hamburger:active .bar:nth-child(3){
+    #sandwich:checked+label > .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
 

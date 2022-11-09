@@ -15,6 +15,6 @@ function toggleNav() {
     if (navMenu.style.left === "120%") {
         navMenu.style.left = "0";
     } else {
-        navMenu.style.left = "120%";
+        navMenu.style.left = "0";
     }
 }

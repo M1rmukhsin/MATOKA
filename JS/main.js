@@ -11,10 +11,10 @@ function toggleHam() {
 }
 
 function toggleNav() {
-    const navMenu = document.querySelector(".nav-menu");
-    if (navMenu.style.left === "120%") {
+    const navMenu = document.querySelector(".nav-menu-inner");
+    if (navMenu.style.left === "100%") {
         navMenu.style.left = "0";
     } else {
-        navMenu.style.left = "0";
+        navMenu.style.left = "100%";
     }
 }

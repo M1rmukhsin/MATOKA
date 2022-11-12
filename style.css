@@ -777,12 +777,14 @@ footer {
     }
 
     .map-mobile {
-        margin-left: 25px;
+        margin-left: 30px;
     }
 
     .bg-margin {
-        margin-left: 8px;
+        margin-left: 20px;
     }
+
+    /*Footer styles*/
 
     .footer {
         display: grid;
